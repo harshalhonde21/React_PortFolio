@@ -1,0 +1,16 @@
+.blog-bg{
+    width: 100%;
+    height: auto;
+    background-color: #1e1238;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 10%;
+    box-shadow: 5px 5px 10px #201638;
+}
+
+.blog-bg img{
+    border-radius: 50%;
+}
+
+/* style={{width:'90%', border:'2px solid #915eff', borderRadius:'50%', backgroundColor:'#915eff'}} */

@@ -1,0 +1,12 @@
+.Resume_section{
+    border: 2px solid #915eff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Resume_section:hover{
+    box-shadow: 2px 2px 20px #915eff;
+    background-color: #6d37e1;
+    font-size: 20px;
+    color: rgb(255, 252, 252);
+    font-weight: bold;
+}

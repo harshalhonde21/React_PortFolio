@@ -1,0 +1,42 @@
+.footer-section{
+    width: 100%;
+    max-height: auto;
+    font-weight: bolder;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    background-color: #24183f;
+}
+
+.footer-section p{
+    color: white;
+    padding: 10px;
+}
+
+.footer-section a{
+    width: 2%;
+    height:auto ;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.footer-section img:hover{
+    box-shadow: 2px 2px 20px #060606;
+    cursor: pointer;
+}
+
+.footer-section a:nth-child(2){
+    width: 2%;
+    height:auto ;
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.footer-section a:nth-child(2):hover{
+   box-shadow: 2px 2px 20px blue;
+}
