@@ -13,6 +13,7 @@ import portfolio from "./portfolio.png"
 import gym from "./gym.png"
 import harshal from "./harshal.png"
 import linkedin from "./linkedin.png"
+import management from "./management.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -32,12 +33,14 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import gdsc from "./company/gdsc.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  management,
   logo,
   backend,
   creator,
@@ -63,6 +66,7 @@ export {
   shopify,
   starbucks,
   tesla,
+  gdsc,
   carrent,
   jobit,
   tripguide,

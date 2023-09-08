@@ -15,26 +15,28 @@ import {
     starbucks,
     tesla,
     shopify,
+    gdsc,
     carrent,
     jobit,
     tripguide,
     password,
     portfolio,
-    gym
+    gym,
+    management
   } from "../assets";
   
   export const navLinks = [
     {
       id: "about",
-      title: "About",
+      title: "Know Me",
     },
     {
       id: "work",
-      title: "Work",
+      title: "Experience",
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "Connect",
     },
   ];
   
@@ -107,11 +109,11 @@ import {
   
   const experiences = [
     {
-      title: "Full Stack Web Developer",
-      company_name: "Bharat Intern",
-      icon: starbucks,
+      title: "Web Development Mentor",
+      company_name: "GDSC SBJIT",
+      icon: gdsc,
       iconBg: "#383E56",
-      date: "10 July 2023 - 10 August 2023",
+      date: "20 Aug 2023 - Present",
     },
     {
       title: "Full Stack Developer",
@@ -121,12 +123,12 @@ import {
       date: "1 July 2023 - 1 August 2023",
     },
     {
-      title: "Web Developer",
-      company_name: "Asterisc Technocrat",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "28 June 2023 - 28 July 2023",
-    }
+      title: "Full Stack Web Developer",
+      company_name: "Bharat Intern",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "10 July 2023 - 10 August 2023",
+    },
   ];
   
   const projects = [
@@ -147,6 +149,21 @@ import {
     },
     // 2
     {
+      name: "Credit Based Management System",
+      description:
+        "This Application is generally made for real world problem for the local shop venders who face the problems from those people who take borrow and not gives back by this project shopkeeper saves all records of the buyers.",
+      tags: [
+        {
+          name: "Full Stack Application",
+          color: "aqua",
+        },
+      ],
+      image: management,
+      source_code_link: "https://github.com/harshalhonde21/apnidukan",
+      demo_link:"https://apniiidukan.netlify.app",
+    },
+    //3
+    {
       name: "Video Conferencing Application",
       description:
         "This is Application where you can make video calls with other person freely available you can use it. All the features are included which are there in Apps",
@@ -160,7 +177,7 @@ import {
       source_code_link: "https://github.com/harshalhonde21/video_conference",
       demo_link:"https://videore.netlify.app",
     },
-    // 3
+    // 4
     {
       name: "ToDo Application",
       description:
@@ -176,7 +193,7 @@ import {
       source_code_link: "https://github.com/harshalhonde21/NotePad.github.io",
       demo_link:"https://harshalhonde.netlify.app/notepad.html",
     },
-    // 4
+    // 5
     {
       name: "Password Generator Application",
       description:
@@ -192,7 +209,7 @@ import {
       source_code_link: "https://github.com/harshalhonde21/passwordgenrator",
       demo_link:"https://harshalhonde.netlify.app/password.html",
     },
-    // 5
+    // 6
     {
       name: "My Past PortFolio",
       description:

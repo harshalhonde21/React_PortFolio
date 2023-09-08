@@ -20,10 +20,12 @@ function App() {
             <Navbar />
             <Hero />
           </div>
-          <About />
+          <div className="relative z-0">
+          <StarsCanvas />
+            <About />
+          </div>
           <Experience />
           <Tech />
-          <StarsCanvas />
           <Works />
           <div className="relative z-0">
             <Contact />

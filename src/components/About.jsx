@@ -57,19 +57,19 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] "
+        className="mt-4 text-secondary text-[17px] max-w-6xl leading-[30px] "
       >
         <Typical
           loop={Infinity}
           wrapper="b"
           steps={[
-            "Hey folks, I harshal honde currently pursuing my btech from SB Jain Institute of Technology Management and Research, I am MERN Stack developer with speciality in Front-end development and currently Learning back-end from Express.js. And I am very habitated to work with three.js as 3D Animations.",
-            100000,
+            "Hello everyone, I'm Harshal Honde, currently pursuing my BTech at SB Jain Institute of Technology Management and Research. I'm a MERN Stack developer with a strong focus on front-end development, and I also have a deep expertise in backend development, particularly in building powerful APIs. One of my strengths lies in seamlessly integrating APIs into projects, which enhances the overall functionality and user experience. Moreover, I'm currently delving into Data Structures and Algorithms in C++ to bolster my problem-solving skills and logical thinking. This not only helps me write robust backend logic but also contributes to my proficiency in frontend development. By continually honing my skills and staying updated with the latest industry trends, I strive to deliver top-notch solutions and provide the best possible user experience in my projects.",
+            10,
           ]}
         />
         <br />
         <br />
-        <a className="Resume_section"  href="https://harshalhonde.netlify.app/Resume.pdf">
+        <a className="Resume_section"  href="../../assests/resume.pdf" target="_blank">
           Resume
         </a>
       </motion.p>
