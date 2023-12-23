@@ -137,7 +137,7 @@ import {
     {
       name: "Ecommerce Website",
       description:
-        "This is 'Integrated Ecommerce and Warehouse Management System' in this end-end working like real world ecommerce website which contain cart, deleted items, adding items, ordering,etc. ",
+        "This is 'Integrated Ecommerce and Warehouse Management System' in this end to end working like real world ecommerce website which contain cart, deleted items, adding items, ordering,etc. ",
       tags: [
         {
           name: "Full-Stack Application",
