@@ -113,6 +113,6 @@ p {
 @media (max-width: 768px) {
   .heading-work,
   .works-container {
-    margin: 1rem 1rem; /* Adjust the margins for smaller screens */
+    margin: 1rem 1rem;
   }
 }
