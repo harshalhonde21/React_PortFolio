@@ -75,7 +75,7 @@ const About = () => {
         <br />
         <a
           className="Resume_section"
-          href="../../assests/resume.pdf"
+          href="/resumes.pdf"
           target="_blank"
         >
           Resume

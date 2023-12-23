@@ -22,7 +22,8 @@ import {
     password,
     portfolio,
     gym,
-    management
+    management,
+    ecommerce
   } from "../assets";
   
   export const navLinks = [
@@ -134,6 +135,20 @@ import {
   const projects = [
     // 1
     {
+      name: "Ecommerce Website",
+      description:
+        "This is 'Integrated Ecommerce and Warehouse Management System' in this end-end working like real world ecommerce website which contain cart, deleted items, adding items, ordering,etc. ",
+      tags: [
+        {
+          name: "Full-Stack Application",
+          color: "color",
+        },
+      ],
+      image: ecommerce,
+      source_code_link: "https://github.com/harshalhonde21/EcommerceSpectastyle",
+      demo_link:"https://spectastyle.vercel.app",
+    },
+    {
       name: "Blog Website",
       description:
         "In this Web Application your can manually add blogs, delete it see all over world peoples blogs you can add your blogs to see to the other. This is My Mern Stack Project to show my backend Skills",
@@ -225,22 +240,6 @@ import {
       source_code_link: "https://github.com/harshalhonde21/PortFolio",
       demo_link:"https://harshalhonde.netlify.app",
     },
-    {
-      name: "Gym Website",
-      description:
-        "This is My First Project in First Year where I have maked Gym website for Showcasing which is basically made by HTML,CSS it is basic project / Frontend Project.",
-      tags: [
-        {
-          name: "Web Application",
-          color: "orange-text-gradient",
-        },
-        
-      ],
-      image: gym,
-      source_code_link: "https://github.com/harshalhonde21/PortFolio",
-      demo_link:"https://harshalhonde.netlify.app/gym.html",
-    },
- 
   ];
   
   export {technologies, experiences, projects };

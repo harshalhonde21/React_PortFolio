@@ -36,6 +36,7 @@ import tesla from "./company/tesla.png";
 import gdsc from "./company/gdsc.png";
 
 import carrent from "./carrent.png";
+import ecommerce from "./ecommerce.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -76,5 +77,6 @@ export {
   portfolio,
   gym,
   harshal,
-  linkedin
+  linkedin,
+  ecommerce
 };
