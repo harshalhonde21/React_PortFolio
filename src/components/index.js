@@ -7,6 +7,7 @@ import Experience from './Experience';
 import Works from './Works';
 import Contact from './Contact';
 import Footer from './Footer';
+import Woks from './Woks';
 
 
 export {
@@ -21,5 +22,6 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas,
-  Footer
+  Footer,
+  Woks
 }

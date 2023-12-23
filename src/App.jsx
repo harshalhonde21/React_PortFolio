@@ -5,9 +5,9 @@ import {
   Hero,
   Navbar,
   Tech,
-  Works,
   StarsCanvas,
   Footer,
+  Woks
 } from "./components";
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         </div>
         <Experience />
         <Tech />
-        <Works />
+        <Woks />
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
