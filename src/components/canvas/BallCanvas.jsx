@@ -1,7 +1,6 @@
 import { technologies } from "../../constants";
 import PropTypes from "prop-types";
 import { motion } from "framer-motion";
-// import { fadeIn, textVariant } from "../utils/motion";
 import "./BallCanvas.css";
 import { textVariant } from "../../utils/motion";
 

@@ -10,11 +10,9 @@ const Navbar = () => {
 
   return (
     <>
-      {/* This is my navbar */}
       <nav
         className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
       >
-        {/* this is for my scrolling nature */}
         <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
           <Link
             to="/"
@@ -24,19 +22,16 @@ const Navbar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            {/* this is for my harshal honde logo */}
             <img
               src={mylogo}
               alt="logo_not"
               style={{ width: "7rem", height: "4rem", borderRadius: "50%" }}
               className=""
             />
-            {/* this is my name */}
             <p className="text-white text-[18px] font-bold cursor-pointer">
               Harshal <span>Honde</span>
             </p>
           </Link>
-          {/* This is my navbar links  */}
           <ul className="list-none hidden sm:flex flex-row gap-10">
             {navLinks.map((link) => (
               <li
@@ -50,7 +45,6 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          {/* this is my navbar bar link but in small device with the hamburger */}
           <div className="sm:hidden flex flex-1 justify-end items-center">
             <img
               src={toggle ? close : menu}
@@ -81,7 +75,8 @@ const Navbar = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div><br /><br /> <br />
+        {/* <Link to="/works">Project</Link> */}
       </nav>
     </>
   );
