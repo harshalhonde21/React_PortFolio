@@ -23,7 +23,8 @@ import {
     portfolio,
     gym,
     management,
-    ecommerce
+    ecommerce,
+    ss
   } from "../assets";
   
   export const navLinks = [
@@ -147,6 +148,20 @@ import {
       image: ecommerce,
       source_code_link: "https://github.com/harshalhonde21/EcommerceSpectastyle",
       demo_link:"https://spectastyle.vercel.app",
+    },
+    {
+      name: "Album Website",
+      description:
+        "In this Web Application Admin my create user and can add the add the images to that particular user_id and and this is dinamic application where the data is travelling in real-time basics.",
+      tags: [
+        {
+          name: "Full-Stack Application",
+          color: "color",
+        },
+      ],
+      image: ss,
+      source_code_link: "https://github.com/harshalhonde21/Album_website",
+      demo_link:"https://snapsgallery.vercel.app",
     },
     {
       name: "Blog Website",

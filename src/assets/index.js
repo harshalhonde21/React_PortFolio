@@ -39,6 +39,7 @@ import carrent from "./carrent.png";
 import ecommerce from "./ecommerce.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ss from "./ss.png";
 
 export {
   management,
@@ -78,5 +79,6 @@ export {
   gym,
   harshal,
   linkedin,
-  ecommerce
+  ecommerce,
+  ss
 };
